@@ -2,7 +2,7 @@ import "../../style/page/zapp/zapp.scss"
 
 export default function Zapp() {
   return (
-    <div className="zapp">
+    <div className="zapp" id="app">
       <div className="zappspacing">
         <div className="zappleft">
           <span>Simplify payments, improve cash flow</span>

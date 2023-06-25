@@ -1,10 +1,55 @@
 .features {
-  height: 100dvh;
+  height: 150dvh;
   width: 100dvw;
+  // background-color: red;
+  @media (min-width: 300px) {
+    height: 200dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 480px) {
+    height: 200dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 768px) {
+    height: 200dvh;
+    width: 100dvw;
+    // display: none;
+  }
+  @media (min-width: 1024px) {
+    height: 150dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 1200px) {
+    height: 150dvh;
+    width: 100dvw;
+  }
   .featuresspacing {
     margin-left: 12%;
     margin-right: 16%;
     height: 100%;
+    @media (min-width: 300px) {
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    @media (min-width: 480px) {
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    @media (min-width: 768px) {
+      margin-left: 1%;
+      margin-right: 1%;
+      // display: none;
+    }
+    @media (min-width: 1024px) {
+      margin-left: 12%;
+      margin-right: 16%;
+      height: 100%;
+    }
+    @media (min-width: 1200px) {
+      margin-left: 12%;
+      margin-right: 16%;
+      height: 100%;
+    }
     // background-color: red;
     .feature {
       display: flex;
@@ -12,10 +57,43 @@
       .featurestitle {
         font-size: 48px;
         font-family: "Bellota-Bold";
+        margin-bottom: 20px;
+        @media (min-width: 300px) {
+          font-size: 30px;
+        }
+        @media (min-width: 480px) {
+          font-size: 30px;
+        }
+        @media (min-width: 768px) {
+          font-size: 30px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          font-size: 48px;
+        }
+        @media (min-width: 1200px) {
+          font-size: 48px;
+        }
       }
       .featuresdescription {
         font-size: 16px;
         font-family: "Bellota-Light";
+        @media (min-width: 300px) {
+          font-size: 14px;
+        }
+        @media (min-width: 480px) {
+          font-size: 14px;
+        }
+        @media (min-width: 768px) {
+          font-size: 14px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          font-size: 16px;
+        }
+        @media (min-width: 1200px) {
+          font-size: 16px;
+        }
       }
       .lists {
         display: flex;
@@ -24,18 +102,174 @@
         height: 400px;
         width: 100%;
         justify-content: space-around;
+        margin-bottom: 40px;
+        @media (min-width: 300px) {
+          display: flex;
+          flex-direction: column;
+          // flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+
+          margin-bottom: 20px;
+        }
+        @media (min-width: 480px) {
+          display: flex;
+          flex-direction: column;
+          // flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+
+          margin-bottom: 20px;
+        }
+        @media (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          // flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+
+          margin-bottom: 20px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          display: flex;
+          // flex-direction: column;
+          flex-wrap: wrap;
+          height: 400px;
+          width: 100%;
+          justify-content: space-around;
+          margin-bottom: 40px;
+        }
+        @media (min-width: 1200px) {
+          display: flex;
+          // flex-direction: column;
+          flex-wrap: wrap;
+          height: 400px;
+          width: 100%;
+          justify-content: space-around;
+          margin-bottom: 40px;
+        }
         // background-color: red;
         .listcontainer {
           display: flex;
           width: 40%;
           height: 30%;
           align-items: center;
+          @media (min-width: 300px) {
+            width: 100%;
+          }
+          @media (min-width: 480px) {
+            width: 100%;
+          }
+          @media (min-width: 768px) {
+            width: 100%;
+            // display: none;
+          }
+          @media (min-width: 1024px) {
+            width: 40%;
+          }
+          @media (min-width: 1200px) {
+            width: 40%;
+          }
           .icons {
             height: 100px;
             width: 100px;
             object-fit: cover;
           }
           .listdescription {
+            font-size: 16px;
+            font-family: "Bellota-Regular";
+          }
+        }
+      }
+      .benefitlists {
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        @media (min-width: 300px) {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+          justify-content: space-around;
+        }
+        @media (min-width: 480px) {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+          justify-content: space-around;
+        }
+        @media (min-width: 768px) {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: fit-content;
+          width: 100%;
+          justify-content: space-around;
+        }
+        @media (min-width: 1024px) {
+          display: flex;
+          // flex-direction: column;
+          flex-wrap: wrap;
+          height: 400px;
+          width: 100%;
+          justify-content: space-around;
+        }
+        @media (min-width: 1200px) {
+          display: flex;
+          // flex-direction: column;
+          flex-wrap: wrap;
+          height: 400px;
+          width: 100%;
+          justify-content: space-around;
+        }
+        .benefitcontainer {
+          width: 24%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          @media (min-width: 300px) {
+            width: 45%;
+            height: 100%;
+          }
+          @media (min-width: 480px) {
+            width: 45%;
+            height: 100%;
+          }
+          @media (min-width: 768px) {
+            width: 45%;
+            height: 100%;
+            // display: none;
+          }
+          @media (min-width: 1024px) {
+            width: 24%;
+            height: 100%;
+          }
+          @media (min-width: 1200px) {
+            width: 24%;
+            height: 100%;
+          }
+          // justify-content: center;
+          img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+          }
+          .featurestitle {
+            font-size: 24px;
+            font-family: "Bellota-Bold";
+            margin-bottom: 10px;
+          }
+          span {
             font-size: 16px;
             font-family: "Bellota-Regular";
           }

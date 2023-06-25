@@ -5,26 +5,68 @@ export default function Navigation() {
     <div className="navigtion">
       <div className="navigationspacing">
         <div className="navigationleft">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/bang-clothing.appspot.com/o/flotravel-logo.png?alt=media&token=f2736b3f-6fa0-458f-8d45-3eca9abb54b0"
-            alt=""
-          />
+          <img src="/assets/flotravel-logo.png" alt="" />
         </div>
         <div className="navigationright">
           <div className="linkcontainer">
-            <span>Home</span>
+            <a
+              href="#home"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>Home</span>
+            </a>
           </div>
           <div className="linkcontainer">
-            <span>TheApp</span>
+            <a
+              href="#app"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>TheApp</span>
+            </a>
           </div>
           <div className="linkcontainer">
-            <span>Features</span>
+            <a
+              href="#features"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>Features</span>
+            </a>
           </div>
           <div className="linkcontainer">
-            <span>Reviews</span>
+            <a
+              href="#reviews"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>Reviews</span>
+            </a>
           </div>
           <div className="linkcontainer">
-            <span>Contact</span>
+            <a
+              href="#contact"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>Contact</span>
+            </a>
           </div>
         </div>
       </div>

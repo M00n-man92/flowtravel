@@ -38,3 +38,6 @@
   /* overflow-y: scroll; */
   scroll-behavior: smooth;
 }
+html {
+  scroll-behavior: smooth;
+}

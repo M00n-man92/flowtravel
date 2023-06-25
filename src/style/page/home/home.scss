@@ -3,12 +3,60 @@
   height: 110dvh;
   // background-color: red;
   // margin-bottom: 70px;
+  /* @media (min-width: 300px) {
+    // background-color: red;
+  }
+  @media (min-width: 480px) {
+  }
+  @media (min-width: 768px) {
+    // display: none;
+  }
+  @media (min-width: 1024px) {
+  }
+  @media (min-width: 1200px) {
+  } */
   .homespacing {
     margin-left: 6%;
     margin-right: 8%;
     display: flex;
     justify-content: space-around;
+    @media (min-width: 300px) {
+      margin-left: 6%;
+      margin-right: 8%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20x;
+    }
+    @media (min-width: 480px) {
+      margin-left: 6%;
+      margin-right: 8%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20x;
+    }
+    @media (min-width: 768px) {
+      margin-left: 6%;
+      margin-right: 8%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20x;
+      // display: none;
+    }
+    @media (min-width: 1024px) {
+      margin-left: 6%;
+      margin-right: 8%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    @media (min-width: 1200px) {
+      margin-left: 6%;
+      margin-right: 8%;
+      display: flex;
+      flex-direction: row;
 
+      justify-content: space-around;
+    }
     .homeleft {
       margin-top: 20%;
       flex: 1;
@@ -18,6 +66,23 @@
       width: 400px;
       // background-color: red;
       justify-content: space-around;
+      @media (min-width: 300px) {
+        margin-top: 3%;
+        // background-color: red;
+      }
+      @media (min-width: 480px) {
+        margin-top: 3%;
+      }
+      @media (min-width: 768px) {
+        margin-top: 3%;
+        // display: none;
+      }
+      @media (min-width: 1024px) {
+        margin-top: 20%;
+      }
+      @media (min-width: 1200px) {
+        margin-top: 20%;
+      }
       .homedetailcontainer {
         display: flex;
         flex-direction: column;
@@ -25,11 +90,57 @@
           font-size: 60px;
           font-family: "Bellota-Bold";
           margin-bottom: 10px;
+          @media (min-width: 300px) {
+            font-size: 28px;
+            font-family: "Bellota-Bold";
+          }
+          @media (min-width: 480px) {
+            font-size: 28px;
+            font-family: "Bellota-Bold";
+          }
+          @media (min-width: 768px) {
+            font-size: 28px;
+            font-family: "Bellota-Bold";
+            // display: none;
+          }
+          @media (min-width: 1024px) {
+            font-size: 60px;
+            font-family: "Bellota-Bold";
+            margin-bottom: 10px;
+          }
+          @media (min-width: 1200px) {
+            font-size: 60px;
+            font-family: "Bellota-Bold";
+            margin-bottom: 10px;
+          }
         }
         .lower {
           font-size: 34px;
           font-family: "Bellota-Light";
           margin-bottom: 10px;
+          @media (min-width: 300px) {
+            font-size: 18px;
+            font-family: "Bellota-Light";
+          }
+          @media (min-width: 480px) {
+            font-size: 18px;
+            font-family: "Bellota-Light";
+          }
+          @media (min-width: 768px) {
+            font-size: 18px;
+            font-family: "Bellota-Light";
+            // display: none;
+          }
+          @media (min-width: 1024px) {
+            font-size: 34px;
+            font-family: "Bellota-Light";
+            margin-bottom: 10px;
+          }
+          @media (min-width: 1200px) {
+            font-size: 34px;
+            font-family: "Bellota-Light";
+            margin-bottom: 10px;
+          }
         }
         .applicationlink {
           width: 70%;
@@ -54,6 +165,37 @@
         border-radius: 10px;
         width: 100%;
         height: 90%;
+        @media (min-width: 300px) {
+          margin-left: 10px;
+          width: 80%;
+          height: 90%;
+          // background-color: red;
+        }
+        @media (min-width: 480px) {
+          margin-left: 10px;
+          width: 80%;
+          height: 90%;
+        }
+        @media (min-width: 768px) {
+          margin-left: 10px;
+          width: 80%;
+          height: 90%;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          margin-left: 70px;
+          border: 20px solid black;
+          border-radius: 10px;
+          width: 100%;
+          height: 90%;
+        }
+        @media (min-width: 1200px) {
+          margin-left: 70px;
+          border: 20px solid black;
+          border-radius: 10px;
+          width: 100%;
+          height: 90%;
+        }
       }
 
       .smallerimage {
@@ -65,6 +207,52 @@
         width: 400px;
         height: 500px;
         object-fit: cover;
+        @media (min-width: 300px) {
+          position: relative;
+          top: 120px;
+          right: 270px;
+          width: 40%;
+          height: 70%;
+          object-fit: cover;
+          // background-color: red;
+        }
+        @media (min-width: 480px) {
+          position: relative;
+          top: 120px;
+          right: 370px;
+          width: 40%;
+          height: 70%;
+          object-fit: cover;
+        }
+        @media (min-width: 768px) {
+          position: relative;
+          top: 120px;
+          right: 370px;
+          width: 40%;
+          height: 70%;
+          object-fit: cover;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          position: relative;
+          border: 10px solid black;
+          border-radius: 10px;
+          top: 120px;
+          right: 590px;
+          width: 400px;
+          height: 500px;
+          object-fit: cover;
+        }
+        @media (min-width: 1200px) {
+          position: relative;
+          border: 10px solid black;
+          border-radius: 10px;
+          top: 120px;
+          right: 590px;
+          width: 400px;
+          height: 500px;
+          object-fit: cover;
+        }
       }
     }
   }

@@ -2,11 +2,13 @@ import "../../style/page/features/features.scss"
 
 export default function Features() {
   return (
-    <div className="features">
+    <div className="features" id="features">
       <div className="featuresspacing">
         <div className="feature">
-          <span className="featurestitle">Features</span>
-          <span className="featuresdescription">Text I am a mob boss</span>
+          <span className="featurestitle" style={{ marginBottom: "20px" }}>
+            Features
+          </span>
+
           <div className="lists">
             <div className="listcontainer">
               <img
@@ -66,10 +68,54 @@ export default function Features() {
                 className="icons"
                 src="/assets/Coronavirus fear stalls 14th IATA World Air Cargo Symposium.jpg"
                 alt=""
-                style={{ objectFit: "contian" }}
+                style={{ objectFit: "cover" }}
               />
               <span className="listdescription">
                 Available for both BSP and Non-BSP agents.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="feature">
+          <span className="featurestitle">Benefits and Offers</span>
+          <div className="benefitlists">
+            <div className="benefitcontainer">
+              <img src="/assets/download.png" alt="" />
+              <span className="featurestitle">Earn Cashback</span>
+              <span className="featuresdescription">
+                Earn cash back every time you pay using FlowCash virtual card.
+              </span>
+            </div>
+            <div className="benefitcontainer">
+              <img
+                src="/assets/currencyblack.png"
+                alt=""
+                style={{ borderRadius: "50%" }}
+              />
+              <span className="featurestitle">Save FX Costs</span>
+              <span className="featuresdescription">
+                Most compitative rates direct from Africa's largest banks to
+                save on your FX costs.
+              </span>
+            </div>
+            <div className="benefitcontainer">
+              <img
+                src="/assets/2x.jpg"
+                alt=""
+                style={{ borderRadius: "50%" }}
+              />
+              <span className="featurestitle">Double Commission</span>
+              <span className="featuresdescription">
+                Get double commission and discounts for selected travel
+                products.
+              </span>
+            </div>
+            <div className="benefitcontainer">
+              <img src="/assets/Stocks revenue color icon.jpg" alt="" />
+              <span className="featurestitle">Improved Cash Flow</span>
+              <span className="featuresdescription">
+                No need to keep large desposits with airlines and larger travel
+                agents.
               </span>
             </div>
           </div>

@@ -1,11 +1,71 @@
 .zapp {
   height: 100dvh;
   width: 100dvw;
+  @media (min-width: 300px) {
+    height: 50dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 480px) {
+    height: 50dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 768px) {
+    height: 50dvh;
+    width: 100dvw;
+    // display: none;
+  }
+  @media (min-width: 1024px) {
+    height: 100dvh;
+    width: 100dvw;
+  }
+  @media (min-width: 1200px) {
+    height: 100dvh;
+    width: 100dvw;
+  }
+  // background-color: blue;
   .zappspacing {
     margin-left: 12%;
     margin-right: 16%;
     display: flex;
     margin-top: 15%;
+    @media (min-width: 300px) {
+      margin-left: 1%;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
+      // background-color: red;
+    }
+    @media (min-width: 480px) {
+      margin-left: 1%;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
+    }
+    @media (min-width: 768px) {
+      margin-left: 1%;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
+      // display: none;
+    }
+    @media (min-width: 1024px) {
+      margin-left: 12%;
+      margin-right: 16%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 15%;
+    }
+    @media (min-width: 1200px) {
+      margin-left: 12%;
+      margin-right: 16%;
+      display: flex;
+      flex-direction: row;
+
+      margin-top: 15%;
+    }
     // background-color: red;
     .zappleft {
       // height: 50%;
@@ -14,6 +74,22 @@
       span {
         font-size: 48px;
         font-family: "Bellota-Bold";
+        @media (min-width: 300px) {
+          font-size: 30px;
+        }
+        @media (min-width: 480px) {
+          font-size: 30px;
+        }
+        @media (min-width: 768px) {
+          font-size: 30px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          font-size: 48px;
+        }
+        @media (min-width: 1200px) {
+          font-size: 48px;
+        }
       }
     }
     .zappright {
@@ -25,11 +101,43 @@
         font-size: 30px;
         font-family: "Bellota-Light";
         margin-bottom: 20px;
+        @media (min-width: 300px) {
+          font-size: 18px;
+        }
+        @media (min-width: 480px) {
+          font-size: 18px;
+        }
+        @media (min-width: 768px) {
+          font-size: 18px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          font-size: 30px;
+        }
+        @media (min-width: 1200px) {
+          font-size: 30px;
+        }
       }
       .detailedbottom {
         font-size: 16px;
         font-family: "Bellota-Regular";
         margin-bottom: 80px;
+        @media (min-width: 300px) {
+          font-size: 14px;
+        }
+        @media (min-width: 480px) {
+          font-size: 14px;
+        }
+        @media (min-width: 768px) {
+          font-size: 14px;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          font-size: 16px;
+        }
+        @media (min-width: 1200px) {
+          font-size: 16px;
+        }
       }
       button {
         width: 200px;
