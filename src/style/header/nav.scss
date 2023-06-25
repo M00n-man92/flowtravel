@@ -1,0 +1,41 @@
+.navigtion {
+  height: 90px;
+  width: 100dvw;
+  background-color: #c5e3f6;
+  position: sticky;
+  z-index: 6;
+  top: 0;
+  .navigationspacing {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 6%;
+    justify-content: space-between;
+    .navigationleft {
+      // background-color: red;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        height: 90px;
+        width: 100px;
+        object-fit: contain;
+      }
+    }
+    .navigationright {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .linkcontainer {
+        span {
+          font-size: 18px;
+          font-family: "Bellota-Bold";
+        }
+      }
+      span {
+      }
+    }
+  }
+}

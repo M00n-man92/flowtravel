@@ -1,0 +1,71 @@
+.home {
+  width: 100dvw;
+  height: 110dvh;
+  // background-color: red;
+  // margin-bottom: 70px;
+  .homespacing {
+    margin-left: 6%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-around;
+
+    .homeleft {
+      margin-top: 20%;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      height: 80%;
+      width: 400px;
+      // background-color: red;
+      justify-content: space-around;
+      .homedetailcontainer {
+        display: flex;
+        flex-direction: column;
+        .top {
+          font-size: 60px;
+          font-family: "Bellota-Bold";
+          margin-bottom: 10px;
+        }
+        .lower {
+          font-size: 34px;
+          font-family: "Bellota-Light";
+          margin-bottom: 10px;
+        }
+        .applicationlink {
+          width: 70%;
+          justify-content: space-around;
+          display: flex;
+          align-items: center;
+          img {
+          }
+        }
+      }
+    }
+    .homeright {
+      margin-top: 4%;
+      flex: 1;
+      display: flex;
+      // justify-content: space-between;
+      // background-color: red;
+
+      .biggerimage {
+        margin-left: 70px;
+        border: 20px solid black;
+        border-radius: 10px;
+        width: 100%;
+        height: 90%;
+      }
+
+      .smallerimage {
+        position: relative;
+        border: 10px solid black;
+        border-radius: 10px;
+        top: 120px;
+        right: 590px;
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+  }
+}

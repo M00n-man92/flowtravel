@@ -1,0 +1,44 @@
+.zapp {
+  height: 100dvh;
+  width: 100dvw;
+  .zappspacing {
+    margin-left: 12%;
+    margin-right: 16%;
+    display: flex;
+    margin-top: 15%;
+    // background-color: red;
+    .zappleft {
+      // height: 50%;
+      display: flex;
+      // align-items: center;
+      span {
+        font-size: 48px;
+        font-family: "Bellota-Bold";
+      }
+    }
+    .zappright {
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      // justify-content: space-around;
+      .detailtop {
+        font-size: 30px;
+        font-family: "Bellota-Light";
+        margin-bottom: 20px;
+      }
+      .detailedbottom {
+        font-size: 16px;
+        font-family: "Bellota-Regular";
+        margin-bottom: 80px;
+      }
+      button {
+        width: 200px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: "Bellota-Light";
+      }
+    }
+  }
+}

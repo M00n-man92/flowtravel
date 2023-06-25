@@ -1,0 +1,46 @@
+.features {
+  height: 100dvh;
+  width: 100dvw;
+  .featuresspacing {
+    margin-left: 12%;
+    margin-right: 16%;
+    height: 100%;
+    // background-color: red;
+    .feature {
+      display: flex;
+      flex-direction: column;
+      .featurestitle {
+        font-size: 48px;
+        font-family: "Bellota-Bold";
+      }
+      .featuresdescription {
+        font-size: 16px;
+        font-family: "Bellota-Light";
+      }
+      .lists {
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 100%;
+        justify-content: space-around;
+        // background-color: red;
+        .listcontainer {
+          display: flex;
+          width: 40%;
+          height: 30%;
+          align-items: center;
+          .icons {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+          }
+          .listdescription {
+            font-size: 16px;
+            font-family: "Bellota-Regular";
+          }
+        }
+      }
+    }
+  }
+}
