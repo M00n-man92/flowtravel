@@ -16,11 +16,11 @@
     // display: none;
   }
   @media (min-width: 1024px) {
-    height: 150dvh;
+    height: 170dvh;
     width: 100dvw;
   }
   @media (min-width: 1200px) {
-    height: 150dvh;
+    height: 170dvh;
     width: 100dvw;
   }
   .featuresspacing {
@@ -56,8 +56,9 @@
       flex-direction: column;
       .featurestitle {
         font-size: 48px;
-        font-family: "Bellota-Bold";
+        font-family: "GeraldtonBlack";
         margin-bottom: 20px;
+        color: #16476a;
         @media (min-width: 300px) {
           font-size: 30px;
         }
@@ -77,7 +78,7 @@
       }
       .featuresdescription {
         font-size: 16px;
-        font-family: "Bellota-Light";
+        font-family: "GeraldtonMedium";
         @media (min-width: 300px) {
           font-size: 14px;
         }
@@ -138,7 +139,7 @@
           height: 400px;
           width: 100%;
           justify-content: space-around;
-          margin-bottom: 40px;
+          margin-bottom: 80px;
         }
         @media (min-width: 1200px) {
           display: flex;
@@ -147,7 +148,7 @@
           height: 400px;
           width: 100%;
           justify-content: space-around;
-          margin-bottom: 40px;
+          margin-bottom: 80px;
         }
         // background-color: red;
         .listcontainer {
@@ -190,6 +191,7 @@
         width: 100%;
         justify-content: space-around;
         margin-bottom: 40px;
+        // background-color: red;
         @media (min-width: 300px) {
           display: flex;
           flex-direction: row;
@@ -250,12 +252,12 @@
             // display: none;
           }
           @media (min-width: 1024px) {
-            width: 24%;
-            height: 100%;
+            width: 44%;
+            height: 50%;
           }
           @media (min-width: 1200px) {
-            width: 24%;
-            height: 100%;
+            width: 44%;
+            height: 50%;
           }
           // justify-content: center;
           img {

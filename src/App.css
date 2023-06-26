@@ -30,9 +30,31 @@
   url("./assets/fonts/Museo/MuseoModerno-Regular.ttf");
 }
 @font-face {
-  font-family: "Risque-Regular";
-  src: local("Risque-Regular"),
-  url("./assets/fonts/Risque-Regular.ttf");
+  font-family: "GeraldtonBlack";
+  src: local("GeraldtonBlack"),
+  url("./assets/fonts/Geraldton/GeraldtonBlack.otf");
+}
+@font-face {
+  font-family: "GeraldtonBold";
+  src: local("GeraldtonBold"),
+  url("./assets/fonts/Geraldton/GeraldtonBold.otf");
+
+}
+@font-face {
+  font-family: "GeraldtonExtraLight";
+  src: local("GeraldtonExtraLight"),
+  url("./assets/fonts/Geraldton/GeraldtonExtraLight.otf");
+
+}
+@font-face {
+  font-family: "GeraldtonMedium";
+  src: local("GeraldtonMedium"),
+  url("./assets/fonts/Geraldton/GeraldtonMedium.otf");
+}
+@font-face {
+  font-family: "GeraldtonLight";
+  src: local("GeraldtonLight"),
+  url("./assets/fonts/Geraldton/GeraldtonLight.otf");
 }
 .App{
   /* overflow-y: scroll; */

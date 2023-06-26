@@ -20,18 +20,7 @@ export default function Navigation() {
               <span>Home</span>
             </a>
           </div>
-          <div className="linkcontainer">
-            <a
-              href="#app"
-              style={{
-                textDecoration: "none",
-                color: "black",
-                cursor: "pointer",
-              }}
-            >
-              <span>TheApp</span>
-            </a>
-          </div>
+
           <div className="linkcontainer">
             <a
               href="#features"
@@ -46,6 +35,18 @@ export default function Navigation() {
           </div>
           <div className="linkcontainer">
             <a
+              href="#benefits"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <span>Benefits and Offers</span>
+            </a>
+          </div>
+          {/* <div className="linkcontainer">
+            <a
               href="#reviews"
               style={{
                 textDecoration: "none",
@@ -55,13 +56,13 @@ export default function Navigation() {
             >
               <span>Reviews</span>
             </a>
-          </div>
+          </div> */}
           <div className="linkcontainer">
             <a
               href="#contact"
               style={{
                 textDecoration: "none",
-                color: "black",
+                color: "#16476a",
                 cursor: "pointer",
               }}
             >

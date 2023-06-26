@@ -2,10 +2,14 @@ import "../../style/page/features/features.scss"
 
 export default function Features() {
   return (
-    <div className="features" id="features">
+    <div className="features">
       <div className="featuresspacing">
         <div className="feature">
-          <span className="featurestitle" style={{ marginBottom: "20px" }}>
+          <span
+            className="featurestitle"
+            style={{ marginBottom: "20px" }}
+            id="features"
+          >
             Features
           </span>
 
@@ -15,6 +19,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Premium Vector _ Green checkmark badge or icon, concept element_  glass button. green color. modern check mark icon or sign for use in web, ui, apps and games_"
                 alt=""
+                style={{ width: "125px", height: "125px" }}
               />
               <span className="listdescription">
                 Accepted by most Airlines, Tours and Hotel operators.
@@ -25,6 +30,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Desktop Pc Vector Hd Images, Desktop Cpu Personal Computer Repair Pc Icon, Computer Repair, Repair, Cpu PNG Image For Free Download.png"
                 alt=""
+                style={{ marginRight: "10px" }}
               />
               <span className="listdescription">
                 Webportal service yo help you manage your account and generate
@@ -36,7 +42,12 @@ export default function Features() {
                 className="icons"
                 src="/assets/Computer Icon.png"
                 alt=""
-                style={{ borderRadius: "53px", marginRight: "10px" }}
+                style={{
+                  borderRadius: "53px",
+                  marginRight: "10px",
+                  width: "85px",
+                  height: "85px",
+                }}
               />
               <span className="listdescription">
                 Travel booking tools from FloCash enabled airline of GDS.
@@ -46,7 +57,12 @@ export default function Features() {
               <img
                 className="icons"
                 src="/assets/currencyblack.png"
-                style={{ borderRadius: "50px", marginRight: "10px" }}
+                style={{
+                  borderRadius: "50px",
+                  marginRight: "10px",
+                  height: "85px",
+                  width: "85px",
+                }}
                 alt=""
               />
               <span className="listdescription">
@@ -58,6 +74,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Passport textured.png"
                 alt=""
+                style={{ marginRight: "10px" }}
               />
               <span className="listdescription">
                 Instant ticket issuance. Create convenience for our customers.
@@ -68,7 +85,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Coronavirus fear stalls 14th IATA World Air Cargo Symposium.jpg"
                 alt=""
-                style={{ objectFit: "cover" }}
+                style={{ marginRight: "10px" }}
               />
               <span className="listdescription">
                 Available for both BSP and Non-BSP agents.
@@ -76,7 +93,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="feature">
+        <div className="feature" id="benefits">
           <span className="featurestitle">Benefits and Offers</span>
           <div className="benefitlists">
             <div className="benefitcontainer">

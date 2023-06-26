@@ -1,6 +1,6 @@
 .home {
   width: 100dvw;
-  height: 110dvh;
+  height: 100dvh;
   // background-color: red;
   // margin-bottom: 70px;
   /* @media (min-width: 300px) {
@@ -11,10 +11,7 @@
   @media (min-width: 768px) {
     // display: none;
   }
-  @media (min-width: 1024px) {
-  }
-  @media (min-width: 1200px) {
-  } */
+ */
   .homespacing {
     margin-left: 6%;
     margin-right: 8%;
@@ -78,40 +75,47 @@
         // display: none;
       }
       @media (min-width: 1024px) {
-        margin-top: 20%;
+        margin-top: 10%;
       }
       @media (min-width: 1200px) {
-        margin-top: 20%;
+        margin-top: 10%;
       }
       .homedetailcontainer {
         display: flex;
         flex-direction: column;
         .top {
           font-size: 60px;
-          font-family: "Bellota-Bold";
+          color: #16476a;
+          font-family: "GeraldtonBlack";
           margin-bottom: 10px;
           @media (min-width: 300px) {
             font-size: 28px;
-            font-family: "Bellota-Bold";
+            color: #16476a;
+            font-family: "GeraldtonBlack";
           }
           @media (min-width: 480px) {
             font-size: 28px;
-            font-family: "Bellota-Bold";
+            color: #16476a;
+            font-family: "GeraldtonBlack";
           }
           @media (min-width: 768px) {
             font-size: 28px;
-            font-family: "Bellota-Bold";
+            color: #16476a;
+            font-family: "GeraldtonBlack";
             // display: none;
           }
           @media (min-width: 1024px) {
-            font-size: 60px;
-            font-family: "Bellota-Bold";
-            margin-bottom: 10px;
+            font-size: 70px;
+            color: #16476a;
+            font-family: "GeraldtonBlack";
+            // margin-bottom: 10px;
+            margin-bottom: 45px;
           }
           @media (min-width: 1200px) {
-            font-size: 60px;
-            font-family: "Bellota-Bold";
-            margin-bottom: 10px;
+            font-size: 70px;
+            color: #16476a;
+            font-family: "GeraldtonBlack";
+            margin-bottom: 45px;
           }
         }
         .lower {
@@ -147,6 +151,17 @@
           justify-content: space-around;
           display: flex;
           align-items: center;
+          button {
+            width: 200px;
+            height: 50px;
+            background-color: #16476a;
+            // border: 1px solid black;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            color: white;
+            font-family: "GeraldtonMedium";
+          }
           img {
           }
         }
@@ -161,10 +176,11 @@
 
       .biggerimage {
         margin-left: 70px;
-        border: 20px solid black;
-        border-radius: 10px;
+        border: none;
+        // border-radius: 50%;
         width: 100%;
-        height: 90%;
+        height: 100%;
+        border-radius: 50%;
         @media (min-width: 300px) {
           margin-left: 10px;
           width: 80%;
@@ -184,28 +200,28 @@
         }
         @media (min-width: 1024px) {
           margin-left: 70px;
-          border: 20px solid black;
-          border-radius: 10px;
+          border: none;
+          border-radius: 50%;
           width: 100%;
-          height: 90%;
+          height: 100%;
         }
         @media (min-width: 1200px) {
           margin-left: 70px;
-          border: 20px solid black;
-          border-radius: 10px;
+          border: none;
+          border-radius: 50%;
           width: 100%;
-          height: 90%;
+          height: 100%;
         }
       }
 
       .smallerimage {
         position: relative;
-        border: 10px solid black;
-        border-radius: 10px;
-        top: 120px;
+        border: none;
+        border-radius: 50%;
+        top: 20px;
         right: 590px;
-        width: 400px;
-        height: 500px;
+        width: 200px;
+        height: 150px;
         object-fit: cover;
         @media (min-width: 300px) {
           position: relative;
@@ -235,22 +251,22 @@
         }
         @media (min-width: 1024px) {
           position: relative;
-          border: 10px solid black;
-          border-radius: 10px;
-          top: 120px;
-          right: 590px;
-          width: 400px;
-          height: 500px;
+          border: none;
+          border-radius: 50%;
+          top: 0px;
+          right: 510px;
+          width: 200px;
+          height: 150px;
           object-fit: cover;
         }
         @media (min-width: 1200px) {
           position: relative;
-          border: 10px solid black;
-          border-radius: 10px;
-          top: 120px;
-          right: 590px;
-          width: 400px;
-          height: 500px;
+          border: none;
+          border-radius: 50%;
+          top: 0px;
+          right: 510px;
+          width: 200px;
+          height: 150px;
           object-fit: cover;
         }
       }
