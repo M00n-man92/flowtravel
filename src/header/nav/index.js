@@ -59,7 +59,7 @@ export default function Navigation() {
           </div> */}
           <div className="linkcontainer">
             <a
-              href="#contact"
+              href="#contacts"
               style={{
                 textDecoration: "none",
                 color: "#16476a",

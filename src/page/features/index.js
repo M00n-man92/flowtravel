@@ -61,7 +61,7 @@ export default function Features() {
                 }}
               />
               <span className="listdescription">
-                Travel booking tools from FloCash enabled airline of GDS.
+                Travel booking tools from FloTravel enabled airline of GDS.
               </span>
             </div>
             <div className="listcontainer">
@@ -111,7 +111,7 @@ export default function Features() {
               <img src="/assets/download.png" alt="" />
               <span className="featurestitle">Earn Cashback</span>
               <span className="featuresdescription">
-                Earn cash back every time you pay using FlowCash virtual card.
+                Earn cash back every time you pay using FloTravel agency wallet.
               </span>
             </div>
             <div className="benefitcontainer">
