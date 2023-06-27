@@ -18,7 +18,12 @@ export default function Home() {
           </div>
         </div>
         <div className="homeright">
-          <img className="biggerimage" src="/assets/lady.jpg" alt="" />
+          <img
+            className="biggerimage"
+            src="/assets/Travel.jpg"
+            alt=""
+            // style={{ height: "66%" }}
+          />
           {/* <img
             className="smallerimage"
             src="/assets/Free cartoon travel pictures.png"
