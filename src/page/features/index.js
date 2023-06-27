@@ -14,7 +14,7 @@ export default function Features() {
           </span>
 
           <div className="lists">
-            <div className="listcontainer">
+            <div className="listcontainer" style={{ marginBottom: "-1px" }}>
               <img
                 className="icons"
                 src="/assets/Premium Vector _ Green checkmark badge or icon, concept element_  glass button. green color. modern check mark icon or sign for use in web, ui, apps and games_"
@@ -31,7 +31,7 @@ export default function Features() {
                 Accepted by most Airlines, Tours and Hotel operators.
               </span>
             </div>
-            <div className="listcontainer">
+            {/* <div className="listcontainer">
               <img
                 className="icons"
                 src="/assets/Premium Vector _ Concept of flat computer engineering.jpg"
@@ -63,7 +63,7 @@ export default function Features() {
               <span className="listdescription">
                 Travel booking tools from FloTravel enabled airline of GDS.
               </span>
-            </div>
+            </div> */}
             <div className="listcontainer">
               <img
                 className="icons"
@@ -85,7 +85,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Passport textured.png"
                 alt=""
-                style={{ marginRight: "10px" }}
+                style={{ marginRight: "5px" }}
               />
               <span className="listdescription">
                 Instant ticket issuance. Create convenience for our customers.
@@ -108,18 +108,18 @@ export default function Features() {
           <span className="featurestitle">Benefits and Offers</span>
           <div className="benefitlists">
             <div className="benefitcontainer">
-              <img src="/assets/download.png" alt="" />
+              {/* <img src="/assets/download.png" alt="" /> */}
               <span className="featurestitle">Earn Cashback</span>
               <span className="featuresdescription">
                 Earn cash back every time you pay using FloTravel agency wallet.
               </span>
             </div>
             <div className="benefitcontainer">
-              <img
+              {/* <img
                 src="/assets/currencyblack.png"
                 alt=""
                 style={{ borderRadius: "50%" }}
-              />
+              /> */}
               <span className="featurestitle">Save FX Costs</span>
               <span className="featuresdescription">
                 Most compitative rates direct from Africa's largest banks to
@@ -127,11 +127,11 @@ export default function Features() {
               </span>
             </div>
             <div className="benefitcontainer">
-              <img
+              {/* <img
                 src="/assets/2times.png"
                 alt=""
                 style={{ borderRadius: "50%" }}
-              />
+              /> */}
               <span className="featurestitle">Double Commission</span>
               <span className="featuresdescription">
                 Get double commission and discounts for selected travel
@@ -139,7 +139,7 @@ export default function Features() {
               </span>
             </div>
             <div className="benefitcontainer">
-              <img src="/assets/Stocks revenue color icon.jpg" alt="" />
+              {/* <img src="/assets/Stocks revenue color icon.jpg" alt="" /> */}
               <span className="featurestitle">Improved Cash Flow</span>
               <span className="featuresdescription">
                 No need to keep large desposits with airlines and larger travel
