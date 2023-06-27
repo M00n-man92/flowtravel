@@ -13,7 +13,7 @@ export default function Home() {
             <div className="applicationlink">
               {/* <img src="/assets/google.png" alt="" />
               <img src="/assets/ios.png" alt="" /> */}
-              <button>SIGNUP HERE</button>
+              <button>Signup here</button>
             </div>
           </div>
         </div>

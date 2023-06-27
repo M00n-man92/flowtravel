@@ -6,7 +6,11 @@ export default function Footer() {
         <div className="footercontainer">
           <div className="footerlist">
             <div className="individual">
-              <img src="/assets/flotravel-logo.png" alt="" />
+              <img
+                className="flowtravelicon"
+                src="/assets/flotravel-logo.png"
+                alt=""
+              />
               <div className="coulms">{/* <span>Click Happy.</span> */}</div>
             </div>
             <div className="individual">

@@ -1,7 +1,8 @@
 .footer {
   width: 100dvw;
   height: 60dvh;
-  background-color: #16476a;
+  background-color: #c5e3f6;
+  // background-color: #16476a;
   @media (min-width: 300px) {
     width: 100dvw;
     height: fit-content;
@@ -27,6 +28,31 @@
     margin-left: 6%;
     margin-right: 8%;
     margin-top: 5%;
+    @media (min-width: 300px) {
+      margin-top: 40px;
+      margin-left: 20%;
+      margin-right: 16%;
+    }
+    @media (min-width: 480px) {
+      margin-top: 40px;
+      margin-left: 20%;
+      margin-right: 16%;
+    }
+    @media (min-width: 768px) {
+      margin-top: 40px;
+      margin-left: 20%;
+      margin-right: 16%;
+    }
+    @media (min-width: 1024px) {
+      // margin-top: 40px;
+      margin-left: 6%;
+      margin-right: 8%;
+    }
+    @media (min-width: 1200px) {
+      // margin-top: 0px;
+      margin-left: 6%;
+      margin-right: 8%;
+    }
     .footercontainer {
       display: flex;
       flex-direction: column;
@@ -66,15 +92,28 @@
           width: 20%;
           display: flex;
           height: 80%;
-
+          // background-color: red;
           flex-direction: column;
-          span {
-            font-size: 38px;
-            color: white;
-            font-family: "GeraldtonBlack";
-            margin-bottom: 20px;
+          @media (min-width: 300px) {
+            width: 100%;
+          }
+          @media (min-width: 480px) {
+            width: 100%;
+          }
+          @media (min-width: 768px) {
+            width: 100%;
+            // display: none;
+          }
+          @media (min-width: 1024px) {
+            width: unset;
+          }
+          @media (min-width: 1200px) {
+            width: unset;
+          }
+          .flowtravelicon {
             @media (min-width: 300px) {
-              font-size: 22px;
+              width: 140px;
+              height: 50px;
             }
             @media (min-width: 480px) {
               font-size: 22px;
@@ -90,13 +129,36 @@
               font-size: 38px;
             }
           }
+          span {
+            font-size: 38px;
+            color: #16476a;
+            font-family: "GeraldtonBlack";
+            margin-bottom: 20px;
+            @media (min-width: 300px) {
+              font-size: 28px;
+            }
+            @media (min-width: 480px) {
+              font-size: 28px;
+            }
+            @media (min-width: 768px) {
+              font-size: 28px;
+              // display: none;
+            }
+            @media (min-width: 1024px) {
+              font-size: 38px;
+            }
+            @media (min-width: 1200px) {
+              font-size: 38px;
+            }
+          }
           .coulms {
             display: flex;
             flex-direction: column;
+            // width: 100%;
             span {
               font-size: 20px;
               font-family: "GeraldtonMedium";
-              color: white;
+              color: #16476a;
               @media (min-width: 300px) {
                 font-size: 16px;
               }
@@ -117,10 +179,12 @@
           }
           .icons {
             display: flex;
+            width: 100%;
+            // background-color: red;
             span {
               font-size: 20px;
               font-family: "GeraldtonMedium";
-              color: white;
+              color: #16476a;
               @media (min-width: 300px) {
                 font-size: 16px;
               }
@@ -150,7 +214,7 @@
         span {
           font-size: 20px;
           font-family: "GeraldtonMedium";
-          color: white;
+          color: #16476a;
           @media (min-width: 300px) {
             font-size: 16px;
           }
