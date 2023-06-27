@@ -19,7 +19,13 @@ export default function Features() {
                 className="icons"
                 src="/assets/Premium Vector _ Green checkmark badge or icon, concept element_  glass button. green color. modern check mark icon or sign for use in web, ui, apps and games_"
                 alt=""
-                style={{ width: "125px", height: "125px" }}
+                style={{
+                  width: "115px",
+                  height: "115px",
+                  marginRight: "-15px",
+                  position: "relative",
+                  left: "-15px",
+                }}
               />
               <span className="listdescription">
                 Accepted by most Airlines, Tours and Hotel operators.
@@ -28,9 +34,14 @@ export default function Features() {
             <div className="listcontainer">
               <img
                 className="icons"
-                src="/assets/Desktop Pc Vector Hd Images, Desktop Cpu Personal Computer Repair Pc Icon, Computer Repair, Repair, Cpu PNG Image For Free Download.png"
+                src="/assets/Premium Vector _ Concept of flat computer engineering.jpg"
                 alt=""
-                style={{ marginRight: "10px" }}
+                style={{
+                  marginRight: "10px",
+                  borderRadius: "50%",
+                  width: "85px",
+                  height: "85px",
+                }}
               />
               <span className="listdescription">
                 Webportal service yo help you manage your account and generate
@@ -85,7 +96,7 @@ export default function Features() {
                 className="icons"
                 src="/assets/Coronavirus fear stalls 14th IATA World Air Cargo Symposium.jpg"
                 alt=""
-                style={{ marginRight: "10px" }}
+                style={{ marginRight: "10px", borderRadius: "50%" }}
               />
               <span className="listdescription">
                 Available for both BSP and Non-BSP agents.
@@ -117,7 +128,7 @@ export default function Features() {
             </div>
             <div className="benefitcontainer">
               <img
-                src="/assets/2x.jpg"
+                src="/assets/2times.png"
                 alt=""
                 style={{ borderRadius: "50%" }}
               />
