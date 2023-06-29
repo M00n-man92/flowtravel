@@ -74,25 +74,62 @@
       // background-color: red;
       justify-content: space-around;
       @media (min-width: 300px) {
+        width: 100%;
         margin-top: 3%;
         // background-color: red;
       }
       @media (min-width: 480px) {
+        width: 100%;
         margin-top: 3%;
       }
       @media (min-width: 768px) {
+        width: 100%;
         margin-top: 3%;
         // display: none;
       }
       @media (min-width: 1024px) {
         margin-top: 10%;
+        width: 400px;
       }
       @media (min-width: 1200px) {
         margin-top: 10%;
+        width: 400px;
       }
       .homedetailcontainer {
         display: flex;
         flex-direction: column;
+
+        @media (min-width: 300px) {
+          width: 100%;
+          // background-color: red;
+          align-items: center;
+          justify-content: center;
+        }
+        @media (min-width: 480px) {
+          width: 100%;
+          // background-color: red;
+          align-items: center;
+          justify-content: center;
+        }
+        @media (min-width: 768px) {
+          width: 100%;
+          // background-color: red;
+          align-items: center;
+          justify-content: center;
+          // display: none;
+        }
+        @media (min-width: 1024px) {
+          width: unset;
+          // background-color: red;
+          align-items: unset;
+          justify-content: unset;
+        }
+        @media (min-width: 1200px) {
+          width: unset;
+          // background-color: red;
+          align-items: unset;
+          justify-content: unset;
+        }
         .top {
           font-size: 60px;
           color: #16476a;
@@ -104,6 +141,7 @@
             font-size: 28px;
             color: #16476a;
             font-family: "GeraldtonBlack";
+            text-align: center;
           }
           @media (min-width: 480px) {
             margin-top: 30px;
@@ -111,6 +149,7 @@
             font-size: 28px;
             color: #16476a;
             font-family: "GeraldtonBlack";
+            text-align: center;
           }
           @media (min-width: 768px) {
             margin-top: 30px;
@@ -118,6 +157,7 @@
             font-size: 28px;
             color: #16476a;
             font-family: "GeraldtonBlack";
+            text-align: center;
             // display: none;
           }
           @media (min-width: 1024px) {
@@ -128,6 +168,7 @@
             font-family: "GeraldtonBlack";
             // margin-bottom: 10px;
             margin-bottom: 45px;
+            text-align: unset;
           }
           @media (min-width: 1200px) {
             margin-top: 0px;
@@ -136,6 +177,7 @@
             color: #16476a;
             font-family: "GeraldtonBlack";
             margin-bottom: 45px;
+            text-align: unset;
           }
         }
         .lower {

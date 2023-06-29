@@ -1,6 +1,10 @@
+import { useState } from "react"
+
 import "../../style/header/nav.scss"
 
 export default function Navigation() {
+  const [openRightSideBar, setOpenRight] = useState(false)
+
   return (
     <div className="navigtion">
       <div className="navigationspacing">
@@ -68,6 +72,19 @@ export default function Navigation() {
             >
               <span>Contact</span>
             </a>
+          </div>
+          <div className="burger">
+            <div
+              className="hamburger"
+              onClick={(e) => {
+                setOpenRight(!openRightSideBar)
+                console.log(openRightSideBar)
+              }}
+            >
+              <span className="lineone"></span>
+              <span className="linetwo"></span>
+              <span className="linehthree"></span>
+            </div>
           </div>
         </div>
       </div>

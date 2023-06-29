@@ -1,4 +1,14 @@
 import "../../style/page/footer/footer.scss"
+
+import {
+  Facebook,
+  Instagram,
+  Language,
+  LinkedIn,
+  LocationOn,
+  Phone,
+  Twitter,
+} from "@mui/icons-material"
 export default function Footer() {
   return (
     <div className="footer" id="contacts">
@@ -11,7 +21,21 @@ export default function Footer() {
                 src="/assets/flotravel-logo.png"
                 alt=""
               />
-              <div className="coulms">{/* <span>Click Happy.</span> */}</div>
+              <div
+                className="coulms"
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  width: "100%",
+                  justifyContent: "space-around",
+                  marginTop: "15px",
+                }}
+              >
+                <Twitter style={{ color: "#16476a" }} />
+                <Instagram style={{ color: "#16476a" }} />
+                <Facebook style={{ color: "#16476a" }} />
+                <LinkedIn style={{ color: "#16476a" }} />
+              </div>
             </div>
             <div className="individual">
               <span>About</span>
@@ -25,16 +49,25 @@ export default function Footer() {
             <div className="individual">
               <span>Address</span>
               <div className="icons">
+                <LocationOn style={{ color: "#16476a" }} />
                 <span>Salama Park, Daffodil Street Plot 14, Lusaka.</span>
               </div>
             </div>
             <div className="individual">
               <span>Contact Us</span>
               <div className="coulms">
-                <span>+260976627838</span>
-                <span>+260953016937</span>
-                <span>www.flotravel.com </span>
-                <span>flomart@flocash.com</span>
+                <div style={{ display: "flex" }}>
+                  <Phone style={{ color: "#16476a" }} />
+                  <span>+260976627838</span>
+                </div>
+                <div style={{ display: "flex" }}>
+                  <Phone style={{ color: "#16476a" }} />
+                  <span>+260953016937</span>
+                </div>
+                <div style={{ display: "flex" }}>
+                  <Language style={{ color: "#16476a" }} />
+                  <span>www.flotravel.com </span>
+                </div>
               </div>
             </div>
           </div>

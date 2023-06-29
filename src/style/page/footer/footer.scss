@@ -6,6 +6,7 @@
   @media (min-width: 300px) {
     width: 100dvw;
     height: fit-content;
+    // background-color: red;
   }
   @media (min-width: 480px) {
     width: 100dvw;
@@ -30,18 +31,20 @@
     margin-top: 5%;
     @media (min-width: 300px) {
       margin-top: 40px;
-      margin-left: 20%;
-      margin-right: 16%;
+      margin-left: 10%;
+      margin-right: 10%;
+
+      // background-color: red;
     }
     @media (min-width: 480px) {
       margin-top: 40px;
-      margin-left: 20%;
-      margin-right: 16%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
     @media (min-width: 768px) {
       margin-top: 40px;
-      margin-left: 20%;
-      margin-right: 16%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
     @media (min-width: 1024px) {
       // margin-top: 40px;
@@ -64,7 +67,7 @@
         @media (min-width: 300px) {
           flex-direction: column;
           width: 100%;
-          height: 100%;
+          height: 380px;
           flex-wrap: wrap;
           // background-color: red;
         }
@@ -95,7 +98,7 @@
           // background-color: red;
           flex-direction: column;
           @media (min-width: 300px) {
-            width: 100%;
+            width: 50%;
           }
           @media (min-width: 480px) {
             width: 100%;
